@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.header{
+    background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.block__link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__inst{
+    display: flex;
+
+}
+
+.inst{
+margin-right: 15px;
+}
+
+.text__header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #FFFFFF
+}
+
+.block__place{
+    align-items: center;
+    display: flex;
+    
+}
+
+.place{
+   margin-right: 8px; 
+}
+
+.place__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+color: #FFFFFF;
+
+}
+
+.number__block{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.num{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 10px;
+color: #FFFFFF;
+margin-right: 12px;
+}
+
+.num__mts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #FFFFFF;   
+
+}
+
+.phone{
+    margin-right: 12px;
+    text-align: center;
+}
+
+.block__logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.logo__main{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+.logo__title{
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+
+}
+
+.block__links{
+    display: flex;
+    gap: 0px 25px;
+}
+
+.link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #737373;
+}
+
+.block__content{
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/подложка1.png) no-repeat right;
+}
+
+.info{
+    padding-top: 189px;
+    background: url(../img/icon/Component1.svg) no-repeat left;
+}
+
+.title__cont{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 59px;
+color: #000000;
+margin-bottom: 10px;
+}
+
+.text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-bottom: 30px;
+}
+
+.btn__cont{
+background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+border-radius: 7px;
+padding-top: 15px;
+padding-bottom: 16px;
+padding-left: 30px;
+padding-right: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.EVA{
+    background: url(../img/дляфона.png) no-repeat left;
+}
+
+.card{
+    background: #FFFFFF;
+border-radius: 9px;
+max-width: 344px;
+width: 100%;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);
+border-radius: 9px;
+}
+
+
+
+.card__title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.left__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+color: #000000;
+}
+
+
+.color__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+
+background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.right__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+color: #000000;
+}
+
+.title__card{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+margin-top: 20px;
+margin-bottom: 10px;
+padding-left: 22px;
+padding-right: 33px;
+}
+
+.card__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+color: #767676;
+padding-left: 22px;
+padding-right: 33px;
+padding-bottom: 23px;
+}
+
+.card__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 255px;
+}
+
+.card__img{
+    max-width: 344px;
+    width: 100%;
+    border-radius: 9px 9px 0px 0px;
+}
